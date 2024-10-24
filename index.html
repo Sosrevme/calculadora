@@ -1,0 +1,64 @@
+<!-- Função do HTML é a estrutura. -->
+<!-- Função do CSS é a estética do site. -->
+<!-- JavaScript fará funconar. É o que dará interação para a pessoa usar o site. Interação entre o usuário e o site. -->
+<!-- ! + enter para inserir os códigos iniciais -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <!-- o defer irá forçar o carregamento desse arquivo logo no inicio do carregamento da página -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <img src="https://seeklogo.com/images/P/Padrinos_magicos-logo-C4F6732F30-seeklogo.com.png" alt="Desenhos ps padrinhos mágicos">
+    <h1>Calculadora</h1>
+    <h2>Uma calculadora é um dispositivo eletrônico ou mecânico utilizado para realizar cálculos matemáticos.<br> 
+        Desde as operações mais simples, como adição e subtração, até funções mais complexas como logaritmos e trigonometria, <br>
+        as calculadoras facilitam a resolução de problemas numéricos em diversas áreas, como matemática, ciência, engenharia e finanças.</h2>
+    <!-- Nosso título principal. Só pode haver um. A função semântica dele, o navegador não entenderá o tema principal do site. -->
+    <div id="calculator">
+        <!-- atribuir name, class ou id. Termos em inglês facilitam que as pessoas encontrem o seu site. -->
+        <input type="text" id="display" disabled><!-- Quer dizer que essa linha input é do tipo texto. Input é usado geralmente em formulários. -->
+        <br>
+        <!-- Para repetir a linha: selecione a linha e utilize o atalho SHIFT+OPTION+Setinha pra baixo -->
+
+        <!-- Diferença entre ID e Class - Quando usar cada? O ID é uma identificação, é único como se fosse um CPF. A class é para agrupar. Por exemplo "Turma 69". Class gera um grupo, id é individual. -->
+        <!-- Estrutura ELEMENTO atributo="valor" -->
+        <button id="ac" class="operator"> AC </button>
+        <button id="de" class="operator"> DEL </button>
+        <button id="." class="operator"> . </button>
+        <button id="/" class="operator"> / </button>
+        <br>
+        <button id="7"> 7 </button>
+        <!-- para apagar mais de um elemento de uma vez, utilize o alt e selecione linha por linha -->
+        <button id="8"> 8 </button>
+        <button id="9"> 9 </button>
+        <button id="*" class="operator"> X </button>
+        <br>
+        <button id="4"> 4 </button>
+        <button id="5"> 5 </button>
+        <button id="6"> 6 </button>
+        <button id="-" class="operator"> - </button>
+        <br>
+        <button id="1"> 1 </button>
+        <button id="2"> 2 </button>
+        <button id="3"> 3 </button>
+        <button id="+" class="operator"> + </button>
+        <br>
+        <button id="00"> 00 </button>
+        <button id="0"> 0 </button>
+        <button id="." class="operator"> . </button>
+        <button id="=" class="operator equal"> = </button>
+        <br>
+    </div>
+    <div id="rodape">
+        <p>Todos os direitos reservados | Valéria Oliveira &reg; </p>
+    </div>
+   
+</body>
+</html>

@@ -1,0 +1,90 @@
+/* seletor propriedade e valor */
+body {
+    /* propriedades que queremos mudar no body */
+    /* text-align: center; */
+    margin: 0;
+    background-color: #98f231;
+    display: flex;
+    /* O que significa flex? Um do ladinho do outro. Flex ou Grid */
+    flex-direction: column;
+    justify-content: center;
+    /* Só é possível usar caso seja adicionado o display flex. Alinhamento horizontal. pode ser começo, meio ou fim. Start, center ou end*/
+    height: 100vh;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 200px;
+    color: #a7007a;
+    font-size: 3em;
+}
+
+/* para chamar ID sempre usar hashtag. Sustenido ou cerquilha */
+#calculator {
+    max-width: 360px;
+    background-color: #a7007a;
+    padding: 30px;
+    /* padding: é espaçamento dentro do elemento */
+    border-radius: 10px;
+}
+
+#display {
+    width: 100%;
+    height: 56px;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 20px;
+    color: #4d8310;
+    background-color: #98f231;
+    border: none;
+    box-sizing: border-box;
+}
+
+button {
+    width: calc(25% - 10px);
+    /* cada largura de botão será 25% menos 10px. */
+    height: 50px;
+    font-size: 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    float: left;
+    background-color: #98f231;
+    color: #a7007a;
+}
+
+.operator {
+    color: #d8009e;
+}
+
+#ac {
+    color: #d8009e;
+}
+
+.equal {
+    width: calc(50% - 10px);
+}
+
+#rodape {
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+    padding: 10px;
+    background-color: #a7007a;
+    color: #98f231;
+}
+
+h2 {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #a7007a;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+img{
+    margin-top: auto;
+    margin-bottom: -150px;
+}
