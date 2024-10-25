@@ -3,7 +3,8 @@ body {
     /* propriedades que queremos mudar no body */
     /* text-align: center; */
     margin: 0;
-    background-color: #98f231;
+    background: rgb(105, 180, 19);
+    background: linear-gradient(0deg, rgba(105, 180, 19, 1) 0%, rgba(152, 242, 49, 1) 54%);
     display: flex;
     /* O que significa flex? Um do ladinho do outro. Flex ou Grid */
     flex-direction: column;
@@ -27,6 +28,7 @@ h1 {
     padding: 30px;
     /* padding: é espaçamento dentro do elemento */
     border-radius: 10px;
+    box-shadow: 5px 5px 10px #69a920;
 }
 
 #display {
@@ -79,12 +81,14 @@ button {
 h2 {
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
     color: #a7007a;
     text-align: center;
     margin-top: -20px;
     margin-bottom: 20px;
 }
-img{
+
+img {
     margin-top: auto;
     margin-bottom: -150px;
 }
